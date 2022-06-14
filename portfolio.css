@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    line-height: 2rem;
+    overflow: hidden;
+}
+.navigation{
+    display: block;
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background-color: #C850C0;
+}
+.navigation h1{
+    margin: 2rem;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigation h1 span{
+    color: #130CB7;
+    font-size: 2.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+nav{
+    display: block;
+    margin-left: 30%;
+    margin-top: 35%;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0.3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.6rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: rgb(255, 0, 136);
+    box-shadow: 0 0.5rem 1rem black;
+}
+.icons{
+    margin: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.fa-brands{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transform: scale(1.8);
+}
+.common{
+    position: relative;
+    margin-left: 30%;
+}
+.home{
+    padding: 5%;
+    height: 100vh;
+    background-color: #C6FFDD;
+}
+.home img{
+    position: relative;
+    top: 200px;
+    left: 60%;
+    height: 300px;
+}
+.home h1{
+    position: relative;
+    top: -100px;
+    font-size: 2.3rem;
+    font-family: 'Nuosu SIL', serif;
+    padding: 1rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.home h1 span{
+    font-size: 3rem;
+    color: rgb(255, 0, 136);
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home p{
+    position: relative;
+    top: -100px;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.home .btn{
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    font-size: 1.2rem;
+    color: #130CB7;
+    border-color: rgb(255, 0, 136);
+    border-radius: 2rem;
+    padding: 10px;
+}
+.home .btn:hover{
+    font-size: 2rem;
+    color: rgb(255, 0, 136);
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem black;
+    border: none;
+}
+.about{
+    background-color: cadetblue;
+    height: 100vh;
+    padding: 5%;
+}
+.about h1{
+    font-size: 3rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-left: 40%;
+}
+.about h1 span{
+    color: rgb(255, 0, 136);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.content{
+    position: relative;
+    top: -220px;
+    left: 45%;
+    color: white;
+}
+.content h1{
+    padding: 0.8rem;
+    font-size: 2.5rem;
+    color: gold;
+}
+.content p{
+    font-size: 2rem;
+    padding: 0.8rem;
+    line-height: 3rem;
+}
+.about img{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    height: 300px;
+    width: 400px;
+}
+.container{
+    position: absolute;
+    margin: 20px;
+    top: 550px;
+    left: 50px;
+}
+.fa-solid{
+    color: rgb(62, 62, 251);
+    padding-right: 20px;
+    font-size: 1rem;
+}
+.container p{
+    font-size: 2rem;
+    color: black;
+    padding: 0.5rem;
+}
+.container span{
+    color: whitesmoke;
+    padding-left: 20px;
+}
+.education{
+    height: 100vh;
+    padding: 5%;
+    background-color: #6dd5ed;
+    font-family: 'Merriweather', serif;
+}
+.header{
+    font-size: 3rem;
+    font-weight: bold;
+    color: darkviolet;
+    padding-left: 40%;
+    line-height: 3rem;
+    letter-spacing: 2px;
+}
+.box h1{
+    font-size: 2.8rem;
+    color: #5433FF;
+    padding: 1.4rem;
+}
+.box p{
+    font-size: 1.8rem;
+    color: black;
+    font-family: 'Nuosu SIL', serif;
+    padding-left: 4rem;
+    line-height: 2.3rem;
+}
+.skills{
+    height: 100vh;
+    padding: 5%;
+    background-color: #4ECDC4;
+}
+.skills h1{
+    font-size: 3rem;
+    color: rgb(245, 12, 163);
+    font-family: 'Nuosu SIL', serif;
+    font-weight: 800;
+    padding-left: 40%;
+    line-height: 3rem;
+    letter-spacing: 2px;
+}
+.skills p{
+    font-size: 3rem;
+    color: white;
+    margin: 5%;
+    line-height: 4rem;
+}
+.logos img{
+    height: 100px;
+    width: 100px;
+    margin-left: 12%;
+    place-items: center;
+    justify-content: space-between;
+}
+.web{
+    font-size: 2rem;
+    padding: 3rem;
+    color: lightcoral;
+}
+.web span{
+    padding: 1.2rem;
+}
+.contact{
+    background-color: #2c3e50;
+    color: white;
+    height: 100vh;
+    font-family: 'PT Serif', serif;
+}
+.contact h1{
+    font-size: 3rem;
+    margin-left: 40%;
+    color: white;
+    margin-top: 5%;
+}
+.form{
+    display: block;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 2.6rem;
+    margin-left: 5%;
+}
+input{
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.6rem;
+}
+textarea{
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+textarea::placeholder{
+    font-size: 1.6rem;
+}
+#msg{
+    padding: 5px;
+    margin: 15px;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+#send{
+    padding: 10px;
+    width: 10%;
+    margin: 50px;
+    margin-left: 40%;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem black;
+    color: black;
+    background-color: #2193b0;
+}
+footer{
+    position: relative;
+    margin-top: 12%;
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0.8);
+    padding: 1rem;
+    text-align: center;
+}
